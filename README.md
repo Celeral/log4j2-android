@@ -1,5 +1,5 @@
 # log4j2-android
-[![Master Build Status](https://travis-ci.org/Celeral/log4j2-android.svg?branch=master)](https://travis-ci.org/Celeral/log4j2-android/branches)
+[![Master Build Status](https://travis-ci.org/Celeral/log4j2-android.svg?branch=master)](https://travis-ci.org/Celeral/log4j2-android)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.celeral/log4j2-android/badge.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.celeral%22%20AND%20a%3A%22log4j2-android%22)
 [![Javadoc](https://javadoc.io/badge/com.celeral/log4j2-android.svg)](https://www.javadoc.io/doc/com.celeral/log4j2-android)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.celeral/log4j2-android.svg)](https://oss.sonatype.org/#nexus-search;gav~com.celeral~log4j2-android~~~)
