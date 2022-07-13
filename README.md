@@ -4,7 +4,7 @@
 [![Javadoc](https://javadoc.io/badge/com.celeral/log4j2-android.svg)](https://www.javadoc.io/doc/com.celeral/log4j2-android)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.celeral/log4j2-android.svg)](https://oss.sonatype.org/#nexus-search;gav~com.celeral~log4j2-android~~~)
 
-Use log4j2 API within your Android projects instead of Android's Log API. A side effect is that log4j2 logger in dependencies also work seamlessly on Android as it does in non-android projects.  
+Use log4j2 API within your Android projects instead of Android's Log API. A nice side effect is that log4j2 logger in dependencies also work seamlessly on Android as it does in non-android projects.  
 
 # Special Attention
    * Ensure that the dependency you provide for log4j2-android is `runtime` or its equivalent
