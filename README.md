@@ -10,7 +10,8 @@ Use log4j2 API within your Android projects instead of Android's Log API. A nice
    * Ensure that the dependency you provide for log4j2-android is `runtime` or its equivalent
    * Ensure that from the final deployment `log4j-core` library is excluded. log4j2-android is a functional replacement for log4j-core, including both might create unexpected behavior.
    * log4j2-android is a runtime library. Naturally, you do not need to modify your android code in any way. You just need to change the dependencies. If you are referencing the classes included in log4j2-android in your code, then there is a good chance that you are doing something wrong!
-   * FWIW - I use the following build.gradle snippet in my Android project so that I am able to use log4j-core for junit testing, and log4j2-android for Android testing in the same project. 
+  
+TLDR? - I distilled the above points in the following build.gradle snippet and use it in my Android project so that I am able to automatically switch between log4j-core for logging during junit testing, and log4j2-android for logging on Android devices (testing or production) without modifying the build.gradle. 
    ```groovy
 configurations.all {
     config -> {
